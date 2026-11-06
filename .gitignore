@@ -1,0 +1,28 @@
+# Old team's 3D-printer SD card: reference only, very large, not ours to version
+Old Secon Bot USB for PI/
+
+# duplicate from the first session (tools/lidar_identify.py is the real one)
+lidar/
+
+# ROS 2 / colcon build output
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# third-party driver, cloned on the Pi by pi_setup/bootstrap_ros2_jazzy.sh
+ros2_ws/src/rplidar_ros/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# compiled firmware test binary
+fwtest
+fwtest.exe
